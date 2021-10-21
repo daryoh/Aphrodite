@@ -22,7 +22,7 @@ function loginUser() {
             if (email.value !== obj.email || password.value !== obj.password) {
                 loginPasswordError.innerText = "Email or password does not exist"
             } else {
-                window.location.assign("main_dashboard.html");
+                window.location.assign("messages.html");
             }
         })
     };
